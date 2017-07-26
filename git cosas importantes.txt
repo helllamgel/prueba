@@ -1,0 +1,12 @@
+borra el commit y lod eja en el estado antes de realizarlo(osea no borra archivo) util si quieres reacer un commit por su nombre
+ git reset --soft HEAD~1
+
+muestra el origin su url del remote
+ git remote -v
+
+hacer commit y add todo en una linea
+git commit -am "mensaje va aca"
+
+actualziar nuestro repositorio con el de la nuebo ya sea github o bitbucket
+git pull origin master (origin master se refiera a la rama de la web y lo pone en la rama que este en git bash si esta en master  a master lo pone)
+
